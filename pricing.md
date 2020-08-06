@@ -26,7 +26,7 @@ pricing:
 
   plans:
     - title: Early Access
-      link: /#
+      link: https://github.com/login/oauth/authorize?client_id=6941f2acf659df65f37e&response_type=code&scope=read:user%20repo%20read:org&redirect_uri=https://api.assay.it/auth/hook/github
       price: 0
       enabled: true
       features:

@@ -4,7 +4,7 @@ left_links:
   - name: Pricing
     link: /pricing/
   - name: Documentation
-    link: https://doc.assay.it
+    link: https://assay.it/doc
     new_window: true
   - name: Terms
     link: /tos
