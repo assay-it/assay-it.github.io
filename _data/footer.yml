@@ -1,0 +1,26 @@
+left_links:
+  - name: Blog
+    link: /blog/
+  - name: Pricing
+    link: /pricing/
+  - name: Documentation
+    link: https://doc.assay.it
+    new_window: true
+  - name: Terms
+    link: /tos
+right_links:
+  - name:
+    link: https://assay-it.slack.com/
+    social_icon: Slack
+    new_window: true
+  - name:
+    link: https://twitter.com/ItAssay
+    social_icon: Twitter
+    new_window: true
+  - name:
+    link: https://github.com/assay-it
+    social_icon: GitHub
+    new_window: true
+  - name:
+    link: /feed.xml
+    social_icon: RSS

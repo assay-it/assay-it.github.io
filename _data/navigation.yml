@@ -1,0 +1,11 @@
+- name: Home
+  link: /
+- name: Blog
+  link: /blog/
+- name: Pricing
+  link: /pricing/
+- name: Case Studies
+  link: https://doc.assay.it
+  new_window: true
+- name: Sign In
+  link: /#

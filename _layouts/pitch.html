@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<section class="hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url({% include relative-src.html src=page.hero.image %})">
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+			<h1>{{ page.hero.title }}</h1>
+			<p class="subtext">
+        {{ page.hero.description }}
+			</p>
+			<div class="cta button alt"><a href="{{ page.action.link }}">{{ page.action.title }}</a></div>
+		</div>
+	</div>
+	<div class="learn-more"><a href="#learn-more">Learn more <span class="arrow">&#x25BC;</span></a></div>
+</section>
+
+<div class="content" id="learn-more">
+
+  {% for feature in page.features %}
+    <section class="info" >
+      <div class="container flex">
+        <div class="text">
+          <h2>{{ feature.title }}</h2>
+          <p>{{ feature.description }}</p>
+        </div>
+        <div class="image">
+          <img src="{{ feature.image }}" alt="{{ feature.title }}" />
+        </div>
+      </div>
+    </section>
+  {% endfor %}
+
+
+  <section class="hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.4)), url({% include relative-src.html src=page.call.image %})">
+		<div class="inner-hero text-container">
+			<div class="hero-text-container">
+				<h2 class="editable">{{ page.call.title }}</h2>
+				<p class="subtext editable">{{ page.call.description }}</p>
+				<div class="cta button alt"><a href="{{ page.action.link }}">{{ page.action.title }}</a></div>
+			</div>
+		</div>
+	</section>
+</div>

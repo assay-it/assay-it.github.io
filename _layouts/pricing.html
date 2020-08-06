@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+<section class="hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.0)), url({% include relative-src.html src=page.hero.image %})">
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+			<h1 class="editable">{{ page.hero.title }}</h1>
+			<p class="subtext editable">{{ page.hero.description }}</p>
+			<div class="cta button alt"><a href="{{ page.action.link }}">{{ page.action.title }}</a></div>
+		</div>
+	</div>
+	<div class="learn-more"><a href="#learn-more">Choose Your Plan <span class="arrow">&#x25BC;</span></a></div>
+</section>
+
+<section class="pad" id="learn-more">
+	<div class="container flex">
+		
+		<div class="text">
+      <p style="text-align: center;">
+        {{ page.pricing.about }}
+			</p>
+		</div>
+	</div>
+</section>
+
+<section class="pad plans">
+  {% for plan in page.pricing.plans %}
+    
+    <div class="plan">    
+    {% if plan.enabled %}
+      <div class="top"><h3>{{ plan.title }}</h3></div>
+    {% else %}
+      <div class="top disable"><h3>{{ plan.title }}</h3></div>
+    {% endif %}
+      
+      <ul>
+        {% for feature in plan.features %}
+        <li>{{ feature }}</li>
+        {% endfor %}
+      </ul>
+      <hr />
+      
+      {% if plan.enabled %}
+      <h2><sup>$</sup>{{ plan.price }}</h2>
+      <p>per month</p>
+      {% else %}
+      <h2>&nbsp;</h2><p>&nbsp;</p>
+      {% endif %}
+      
+      {% if plan.enabled %}
+      <div class="cta button"><a href="{{ plan.link }}">Sign Up</a></div>
+      {% else %}
+      <div class="cta button disable"><a href="#">Coming Soon</a></div>
+      {% endif %}
+    </div>
+  {% endfor %}
+</section>
