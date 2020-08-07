@@ -40,7 +40,7 @@ The successful adoption of "Everything is Continuous" requires **Continuous depl
 
 The risk of occasional outage is always there due to regression in software quality. The **immutable deployment** is the solution for availability and fault tolerance. CI/CD never changes anything at running systems. Immutable deployment making changes by rebuilding microservices, it deploys a new copy in parallel stack. The rollback of defective software  happens in a matter of seconds. Another advantage is the ability to split traffic between parallel deployments for quality assurance.
 
-In this post, we have covered requirements for "Everything is Continuous" workflow. It's [reference implementation is available](/docs/workflows/everything-is-continuous) with GitHub Actions and AWS CDK.
+In this post, we have covered requirements for "Everything is Continuous" workflow. It's [reference implementation is available](/doc/case-study/everything-is-continuous) with GitHub Actions and AWS CDK.
 
 ![](/images/posts/2020-07-01-everything-continuous-design.svg)
 
