@@ -4,7 +4,7 @@
 title: Quality Assessment
 url: "https://assay.it"
 baseurl:
-google_analytics_key:
+google_analytics_key: 66254710
 google_maps_javascript_api_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
