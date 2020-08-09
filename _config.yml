@@ -13,6 +13,16 @@ description: |
   Objective prove of the quality. We helps developers with quality assessment of
   microservices in the distributed environment.
 
+twitter:
+  username: ItAssay
+  card: summary
+
+social:
+  name: assay.it
+  links:
+    - https://twitter.com/ItAssay
+    - https://github.com/assay-it
+
 # -----
 # Build
 
