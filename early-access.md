@@ -2,7 +2,7 @@
 layout: pitch
 title: Home
 description: |
-  Objective proof of the quality. We helps developers with quality assessment of microservices in the distributed environment.
+  Start your Early Access Plan free of charge. No credit card required.
 
 ##
 ## call for action
