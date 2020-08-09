@@ -4,10 +4,10 @@ left_links:
   - name: Pricing
     link: /pricing/
   - name: Documentation
-    link: https://assay.it/doc
+    link: https://assay.it/doc/
     new_window: true
   - name: Terms
-    link: /tos
+    link: /tos/
 right_links:
   - name:
     link: https://assay-it.slack.com/

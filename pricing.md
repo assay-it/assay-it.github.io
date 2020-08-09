@@ -36,7 +36,7 @@ pricing:
         - Slack <strong>Community</strong> Support
         - <strong>Chat and Email</strong> support
         - '&nbsp;'
-        - <a href="/early-access">More info</a>
+        - <a href="/early-access/">More info</a>
 
     - title: Open Source
       enabled: false
