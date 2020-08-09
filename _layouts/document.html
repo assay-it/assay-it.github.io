@@ -1,10 +1,21 @@
 ---
-layout: page
+layout: default
 ---
 
+<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+			<h1>{{ page.title }}</h1>
+			<p class="subtext">{{ page.description }}</p>
+		</div>
+	</div>
+	<div class="learn-more"><a href="#learn-more">Read <span class="arrow">&#x25BC;</span></a></div>
+</section>
+
+<div id="learn-more"></div>
 <section>
 	<div class="blog-post text-container">
-		<div style="font-size: 0.8vw; padding-top: 4em;" class="post-content">
+		<div style="font-size: 12px; padding-top: 4em;" class="post-content">
 			{{ content }}
 		</div>
 	</div>

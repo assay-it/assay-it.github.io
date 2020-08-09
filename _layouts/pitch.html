@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<section class="hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url({% include relative-src.html src=page.hero.image %})">
+<section class="hero" style="background-image: url({% include relative-src.html src=page.hero.image %})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
 			<h1>{{ page.hero.title }}</h1>
@@ -15,8 +15,10 @@ layout: default
 	<div class="learn-more"><a href="#learn-more">Learn more <span class="arrow">&#x25BC;</span></a></div>
 </section>
 
-<div class="content" id="learn-more">
 
+
+<div class="content" id="learn-more">
+	
   {% for feature in page.features %}
     <section class="info" >
       <div class="container flex">
@@ -32,7 +34,7 @@ layout: default
   {% endfor %}
 
 
-  <section class="hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.4)), url({% include relative-src.html src=page.call.image %})">
+  <section class="hero" style="background-image: url({% include relative-src.html src=page.call.image %})">
 		<div class="inner-hero text-container">
 			<div class="hero-text-container">
 				<h2 class="editable">{{ page.call.title }}</h2>
