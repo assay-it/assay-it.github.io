@@ -22,7 +22,7 @@ This approach delivers few measurable benefits to any Software as a Service busi
 
 ![](/images/posts/2020-07-01-everything-continuous-workflow.svg)
 
-The workflow does not differ at all from [forking or branching git workflow](https://www.atlassian.com/git/tutorials/comparing-workflows#forking-workflow). It just emphasizes continuous deployment as a key feature along the workflow. It supports quality assessments and helps to eliminate all related issues at earlier phases of feature delivery process:
+The workflow does not differ at all from [forking or branching git workflow](https://www.atlassian.com/git/tutorials/comparing-workflows#forking-workflow). It just emphasizes continuous deployment as a key feature along the delivery process. It supports quality assessments and helps to eliminate all related issues at earlier phases of feature delivery process:
 
 1. The `main` branch of your project is always the latest deployable snapshot of a microservice. CI/CD have to automate the `main` snapshot deployments every time when a new feature is merged.
 
@@ -30,17 +30,17 @@ The workflow does not differ at all from [forking or branching git workflow](htt
 
 3. The merge of the pull request triggers the deployment of the `main` branch into the development environment. Again, every modification of the development environment triggers quality assessments before features are delivered to production.
 
-4. Finally, the delivery of the development environment to live is automated using git tags. A provisioning of a new tag caused a new immutable deployment of microservice(s) to the live environment.
+4. Finally, the delivery of the development environment to production is automated using git tags. A provisioning of a new tag caused a new immutable deployment of microservice(s) to the live environment.
 
-5. In each step, [https://assay.it](https://assay.it) executes quality assessments against the right environment.
+5. In each step, CI/CD triggers [https://assay.it](https://assay.it) to executes quality assessments jobs against the right environment.
 
-The successful adoption of "Everything is Continuous" requires **Continuous deployment**, which shall be aligned with other CI/CD delivery pipelines. **Infrastructure as a Code** and **immutable deployments** are two engineering practices to consider as part of the deployment automation:
+The successful adoption of "Everything is Continuous" requires **Continuous deployment**, which shall be aligned with other CI/CD delivery pipelines. **Infrastructure as a Code** and **immutable deployments** are two engineering practices to consider as part of the deployment automation.
 
 **Infrastructure as a Code** is the only right way to manage resources in an automated manner. It is preferable to use **declarative IaC**, which describes the infrastructure using generic programming languages (strictly type safe language is strongly advised) without explicit definition of commands to be performed. A familiar development tool chains speed-up development and static type checks validates correctness of the infrastructure.
 
-The risk of occasional outage is always there due to regression in software quality. The **immutable deployment** is the solution for availability and fault tolerance. CI/CD never changes anything at running systems. Immutable deployment making changes by rebuilding microservices, it deploys a new copy in parallel stack. The rollback of defective software  happens in a matter of seconds. Another advantage is the ability to split traffic between parallel deployments for quality assurance.
+The risk of occasional outage is always there due to regression in software quality. The **immutable deployment** is the solution for availability and fault tolerance. CI/CD never changes anything at running systems. Immutable deployment making changes by rebuilding microservices, it deploys a new copy in parallel stack. The rollback of defective software  happens in a matter of seconds. Another advantage is the ability to split traffic between parallel deployments for quality assurance. 
 
-In this post, we have covered requirements for "Everything is Continuous" workflow. It's [reference implementation is available](/doc/case-study/everything-is-continuous) with GitHub Actions and AWS CDK.
+The actual workflow implementation depends on tool chain used by the engineering team, especially CI/CD system. There is [a reference implementation](/doc/case-study/everything-is-continuous) of this workflow with AWS CDK and GitHub Actions. At the glance, the workflow requires steep learning curve, the knowledge about deployment automation is required before jumping into it. The time investment is worth it due to measurable benefits: cost reduction, faster execution and mitigation of risks.
 
 ![](/images/posts/2020-07-01-everything-continuous-design.svg)
 
