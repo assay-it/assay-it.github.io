@@ -1,5 +1,6 @@
 ---
-title: Everything is Continuous
+title: |
+  Everything is Continuous: A Simple Strategy on How To Deliver Software as a Service.
 date: 2020-07-01
 description: |
   Why is modern software engineering talking about Continuous Integration, Continuous Delivery and Continuous Deployment? Everything is Continuous!
