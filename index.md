@@ -1,8 +1,9 @@
 ---
 layout: pitch
-title: Home
+title: Prove Quality and Risk free Releases
 description: |
-  Objective proof of the quality. We helps developers with quality assessment of microservices in the distributed environment.
+  The automated solution for quality assessment of loosely coupled system increase development speed, reduce costs and operational risks.
+image: /site-icon.png
 
 ##
 ## call for action
@@ -17,9 +18,9 @@ action:
 ## big hero headline
 hero:
   image: /images/head.svg
-  title: Objective proof of the quality
+  title: Prove Quality, <br/>Risk free Releases.
   description: |
-    We helps developers with quality assessment of microservices in the distributed environment.
+    Loosely coupled system relies on interface syntax and its behavior. Usage of the automated solution for quality assessment of these service topologies is the right testing strategy to increase speed and reduce costs.
 
 ##
 ## product features
@@ -27,14 +28,14 @@ features:
   - title: Behavior as a Code
     image: /images/code_typing.svg
     description: |
-      Just write pure functional code to declare microservice contracts.
+      Just write pure functional code to declare contracts of system components.
       <br/><br/>
       No needs for click through UI or maintaining endless XML documents.
 
   - title: Commit and Go
     image: /images/version_control.svg
     description: |
-      Implemented any changes to microservice through pull request.
+      Implemented any changes to any component through pull request.
       <br/><br/>
       We support out of the box integration with leading software development platforms.  
 

@@ -1,10 +1,10 @@
 ---
 title: |
-  Everything is Continuous: A Simple Strategy on How To Deliver Software as a Service.
+  Everything is Continuous: A Simple Strategy on Software Delivery.
 date: 2020-07-01
 description: |
   Why is modern software engineering talking about Continuous Integration, Continuous Delivery and Continuous Deployment? Everything is Continuous!
-categories:
+tags:
   - case study
   - continuous deployment
 image: https://source.unsplash.com/collection/8363627/2000x1322?a=.png
@@ -33,7 +33,7 @@ The workflow does not differ at all from [forking or branching git workflow](htt
 
 4. Finally, the delivery of the development environment to production is automated using git tags. A provisioning of a new tag caused a new immutable deployment of microservice(s) to the live environment.
 
-5. In each step, CI/CD triggers [https://assay.it](https://assay.it) to executes quality assessments jobs against the right environment.
+5. In each step, CI/CD triggers [https://assay.it](https://assay.it/) to executes quality assessments jobs against the right environment.
 
 The successful adoption of "Everything is Continuous" requires **Continuous deployment**, which shall be aligned with other CI/CD delivery pipelines. **Infrastructure as a Code** and **immutable deployments** are two engineering practices to consider as part of the deployment automation.
 
@@ -45,4 +45,4 @@ The actual workflow implementation depends on tool chain used by the engineering
 
 ![](/images/posts/2020-07-01-everything-continuous-design.svg)
 
-We build [https://assay.it](https://assay.it) to help developers with quality assessment of microservices in the distributed environment. The service is designed to perform a formal and objective proof of the quality using Behavior as a Code paradigm every time changes are applied to your environment. 
+We build [https://assay.it](https://assay.it/) to help developers with quality assessment of microservices in the distributed environment. The service is designed to perform a formal and objective proof of the quality using Behavior as a Code paradigm every time changes are applied to your environment. 

@@ -1,8 +1,9 @@
 ---
 layout: pricing
-title: Pricing
+title: Pricing and Plans 
 description: |
   Compare https://assay.it plans and learn everything you need for quality assessment of your product.
+image: /site-icon.png
 
 ##
 ## call for action

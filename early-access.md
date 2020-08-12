@@ -1,8 +1,9 @@
 ---
 layout: pitch
-title: Home
+title: Early Access
 description: |
-  Start your Early Access Plan free of charge. No credit card required.
+  Start your Early Access Plan free of charge with assay.it. No credit card required.
+image: /site-icon.png
 
 ##
 ## call for action

@@ -1,21 +1,21 @@
 # ----
 # Site
 
-title: Assay Microservice Quality
-url: "https://assay.it"
+title: Assay It Quality
+url: https://assay.it
 baseurl:
 google_analytics_key: 66254710
 google_maps_javascript_api_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
+logo: /site-icon.png
 description: |
   Objective prove of the quality. We helps developers with quality assessment of
   microservices in the distributed environment.
 
 twitter:
-  username: ItAssay
   card: summary
+  username: ItAssay
 
 social:
   name: assay.it
@@ -52,7 +52,17 @@ paginate: 10
 paginate_path: "/blog/:num/"
 
 jekyll-archives:
-  enabled: ['categories']
+  enabled:
+    - year
+    - month
+    - tags
+  layout: archive
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
 
 defaults:
   -
