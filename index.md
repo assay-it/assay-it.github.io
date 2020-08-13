@@ -11,15 +11,10 @@ action:
   title: Get Early Access
   link: /early-access/
   
-  
-#https://github.com/login/oauth/authorize?client_id=6941f2acf659df65f37e&response_type=code&scope=read:user%20repo%20read:org&redirect_uri=https://api.assay.it/auth/hook/github
-
 ##
 ## big hero headline
 hero:
   image: /images/hologram.svg
-  #https://source.unsplash.com/gPnHi8AmO5k/2000x1322?a=.png
-  #/images/head.svg
   title: Confirm Quality, <br/><strong>Eliminate Risks</strong>.
   description: |
     Loosely coupled system relies on interface syntax and its behavior. Usage of the automated solution for quality assessment of these service topologies is the right testing strategy to increase speed and reduce costs.
