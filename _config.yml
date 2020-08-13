@@ -10,8 +10,7 @@ google_maps_javascript_api_key:
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /site-icon.png
 description: |
-  Objective prove of the quality. We helps developers with quality assessment of
-  microservices in the distributed environment.
+  The automated solution for quality assessment of loosely coupled system increase development speed, reduce costs and operational risks.
 
 twitter:
   card: summary
