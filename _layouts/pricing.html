@@ -2,16 +2,7 @@
 layout: default
 ---
 
-<section class="hero" style="background-image: url({% include relative-src.html src=page.hero.image %})">
-	<div class="inner-hero text-container">
-		<div class="hero-text-container">
-			<h1>{{ page.hero.title }}</h1>
-			<p class="subtext">{{ page.hero.description }}</p>
-			<div class="cta button alt"><a href="{{ page.action.link }}">{{ page.action.title }}</a></div>
-		</div>
-	</div>
-	<div class="learn-more"><a href="#learn-more">Choose Your Plan <span class="arrow">&#x25BC;</span></a></div>
-</section>
+{% include hero.html %}
 
 <section class="pad" id="learn-more">
 	<div class="container flex">

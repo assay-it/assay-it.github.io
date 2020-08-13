@@ -1,6 +1,6 @@
 ---
 layout: pitch
-title: Prove Quality and Risk free Releases
+title: Confirm Quality and Eliminate Risks
 description: |
   The automated solution for quality assessment of loosely coupled system increase development speed, reduce costs and operational risks.
 image: /site-icon.png
@@ -17,8 +17,10 @@ action:
 ##
 ## big hero headline
 hero:
-  image: /images/head.svg
-  title: Prove Quality, <br/>Risk free Releases.
+  image: /images/hologram.svg
+  #https://source.unsplash.com/gPnHi8AmO5k/2000x1322?a=.png
+  #/images/head.svg
+  title: Confirm Quality, <br/><strong>Eliminate Risks</strong>.
   description: |
     Loosely coupled system relies on interface syntax and its behavior. Usage of the automated solution for quality assessment of these service topologies is the right testing strategy to increase speed and reduce costs.
 

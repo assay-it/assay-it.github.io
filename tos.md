@@ -2,7 +2,13 @@
 layout: document
 title: Terms of Service
 description: Last revised on July 1, 2020
-image: /images/contract.svg
+image: /site-icon.png
+
+hero:
+  image: /images/contract.svg
+  title: Terms of Service
+  description: |
+    Last revised on July 1, 2020
 ---
 
 <!-- https://gist.github.com/devver/380029 -->

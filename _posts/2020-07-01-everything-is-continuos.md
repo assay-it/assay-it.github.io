@@ -4,9 +4,9 @@ title: |
 date: 2020-07-01
 description: |
   Why is modern software engineering talking about Continuous Integration, Continuous Delivery and Continuous Deployment? Everything is Continuous!
-tags:
-  - case study
-  - continuous deployment
+# tags:
+#   - case study
+#   - continuous deployment
 image: https://source.unsplash.com/collection/8363627/2000x1322?a=.png
 author_staff_member: facebadge
 ---

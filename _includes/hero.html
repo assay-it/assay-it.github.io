@@ -1,0 +1,20 @@
+
+<section class="hero">
+	<div class="inner-hero text-container">
+		<div class="text">
+			<h1>{{ page.hero.title }}</h1>
+		</div>
+		<div class="image">
+			<img src="{{ page.hero.image }}" alt="{{ page.hero.title }}" />
+		</div>
+		<div class="other">
+			<p class="subtext">
+				{{ page.hero.description }}
+      </p>
+      {% if page.action.link %}
+      <div class="cta button alt"><a href="{{ page.action.link }}">{{ page.action.title }}</a></div>	
+      {% endif %}	
+		</div>
+	</div>
+	<div class="learn-more"><a href="#learn-more">Learn more <span class="arrow">&#x25BC;</span></a></div>
+</section>

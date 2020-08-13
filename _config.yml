@@ -55,7 +55,6 @@ jekyll-archives:
   enabled:
     - year
     - month
-    - tags
   layout: archive
   permalinks:
     year: '/:year/'
