@@ -1,7 +1,13 @@
-$brand-color: #137CBD;
+$brand-color: #2458B3;
 
 // Breakpoints
-$smartphone: "(min-width: 375px)";
-$tablet: "(min-width: 768px)";
+$smartphone: "(min-width: 320px)";
+$portrait: "(min-width: 767px)";
+$landscape: "(min-width: 1023px)";
+$hd: "(min-width: 1279px)";
+$fullhd: "(min-width: 1919px)";
+
+//
 $mid-point: "(min-width: 768px)";
 $desktop: "(min-width: 1248px)";
+$tablet: "(min-width: 768px)";

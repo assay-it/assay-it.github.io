@@ -24,7 +24,7 @@ footer {
 
 		&.footer-right-links {
 			float: left;
-			@media #{$tablet} {
+			@media #{$portrait} {
 				float: right;
 			}
 		}

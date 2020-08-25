@@ -15,9 +15,9 @@ Modern software engineering is talking about Continuous Integration, Continuous 
 
 This approach delivers few measurable benefits to any Software as a Service business:
 
-* **Reduce Cost** by eliminating toil activities from engineering processes. Team focuses their effort towards feature development and other business valuable activities. By coding the entire delivery chain, the team accomplishes automated and repeatable processes. 
+1. **Reduce Cost** by eliminating toil activities from engineering processes. Team focuses their effort towards feature development and other business valuable activities. By coding the entire delivery chain, the team accomplishes automated and repeatable processes. 
 
-* **Increase Speed** of iteration cycles. It shortens delivery time and unlocks an opportunity to release software at any point in time.
+2. **Increase Speed** of iteration cycles. It shortens delivery time and unlocks an opportunity to release software at any point in time.
 
 **"Everything is Continuous"** does not invent any special workflow. It just emphasizes deployment and quality assessment as a key feature along the development process. Continuous proofs of the quality helps to eliminate defects at earlier phases of the feature lifecycle. It impacts on engineering teams philosophy and commitments, ensuring that your microservice(s) are always in a release-ready state. The right implementation of the workflow deploys every commit to disposable sandbox environment with the following promotion to production. 
 
