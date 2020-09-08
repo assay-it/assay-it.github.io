@@ -65,6 +65,7 @@
 	display: -moz-flex;
 	display: -ms-flexbox;
 	display: flex;
+	justify-content: space-between;
 }
 
 %flexbox { @include flexbox; }

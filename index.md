@@ -17,7 +17,7 @@ hero:
   image: /images/hologram.svg
   title: Confirm Quality, Eliminate Risks in your Serverless applications
   description: |
-    Quality assurance of serverless applications is more complex than doing it for other runtimes. Engineering teams spend twice as much time maintaining testing environments and mocks of cloud dependencies instead of building a loyal relationship with their customers, assay.it has you covered.
+    Quality assurance of serverless applications is more complex than doing it for other runtimes. Engineering teams spend twice as much time maintaining testing environments and mocks of cloud dependencies instead of building a loyal relationship with their customers, <a href="/getting-started"><b>assay.it has you covered.</b></a>
 
 ##
 ## product features
