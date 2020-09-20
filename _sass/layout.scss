@@ -49,6 +49,7 @@ header {
 		box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
 		transition: background-color 0.2s ease;
 		text-shadow: none;
+		height: 30px;
 
 		a {
 			color: #333;
@@ -71,6 +72,13 @@ header {
 
 	a {
 		color: #fff;
+		@media #{$mid-point} {
+			&:hover {
+				border-bottom-color: rgba(255, 255, 255, .7);
+				border-bottom-width: 5px;
+			}
+		}
+		
 		text-decoration: none;
 		z-index: 1;
 		position: relative;
@@ -193,36 +201,4 @@ blockquote:before {
 	.arrow {
 		font-size: .6em;
 	}
-}
-
-.editor-link {
- 	display: none;
-	margin-top: 0;
-	padding-top: 30px;
-	.btn {
-		border: 0;
-		border-radius: 2px;
-		width: 100%;
-		max-width: 500px;
-		box-sizing: border-box;
-		font-size: 2rem;
-		text-decoration: none;
-		padding: 10px 15px;
-		margin: 0;
-		font-size: 18px;
-		cursor: pointer;
-		background-color: #f7e064;
-		color: #333;
-		box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.2);
-
-		&:hover {
-			background-color: #f4d525;
-			color: #333;
-		}
-	}
-
-}
-
-.cms-editor-active .editor-link {
-	display: block;
 }

@@ -26,17 +26,17 @@ features:
   - title: Sign In with GitHub
     image: /images/getting-started/01-authorize.png
     description: |
-      Please use your GitHub account to sign in with assay.it. Our service requires only access to your public profile, public repositories and access to commit status on repositories connected with assay.it. Later, you can upgrade the account with access to private repositories and organizations.
+      Please use your GitHub account to sign in with assay.it. It requires only access to your public profile, public repositories and commit status on repositories connected with assay.it. Later, you can upgrade the account with access to private repositories and organizations.
 
   - title: Fork Example
     image: /images/getting-started/02-fork.png
     description: |
-      We have crafted a simple demo application <a href="https://github.com/assay-it/sample.assay.it" target="_blank"><b>assay-it/sample.assay.it</b></a>. Fork it to your own GitHub account and then add to the service workspace. 
+      Use simple example application <a href="https://github.com/assay-it/sample.assay.it" target="_blank"><b>assay-it/sample.assay.it</b></a>. Fork it to your own GitHub account and then add to the service workspace. 
 
   - title: Confirm Quality
     image: /images/getting-started/03-confirm.png
     description: |
-      Launch the quality assessment job with this example. It implements a minimal quality assessment using <a href="https://github.com/assay-it/sample.assay.it/blob/master/suite.go" target="_blank">Behavior as a Code</a>.
+      Launch the quality assessment job for this example. It implements a minimal quality assessment using <a href="https://github.com/assay-it/sample.assay.it/blob/master/suite.go" target="_blank">Behavior as a Code</a>.
 
 ##
 ## big call for action footer
