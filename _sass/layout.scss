@@ -55,8 +55,7 @@ header {
 			color: #333;
 			@media #{$mid-point} {
 				&:hover {
-					border-bottom-color: rgba(80, 80, 80,.3);
-					border-bottom-width: 5px;
+					text-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 				}
 			}
 		}
@@ -74,8 +73,7 @@ header {
 		color: #fff;
 		@media #{$mid-point} {
 			&:hover {
-				border-bottom-color: rgba(255, 255, 255, .7);
-				border-bottom-width: 5px;
+				text-shadow: 0px 0px 10px rgba(255,255,255,0.6);
 			}
 		}
 		
