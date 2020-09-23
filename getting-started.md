@@ -28,10 +28,10 @@ features:
     description: |
       Please use your GitHub account to sign in with assay.it. It requires only access to your public profile, public repositories and commit status on repositories connected with assay.it. Later, you can upgrade the account with access to private repositories and organizations.
 
-  - title: Fork Example
+  - title: Fork Blueprint
     image: /images/getting-started/02-fork.png
     description: |
-      Use simple example application <a href="https://github.com/assay-it/blueprint-suite" target="_blank"><b>assay-it/sample.assay.it</b></a>. Fork it to your own GitHub account and then add to the service workspace. 
+      Use blueprint application <a href="https://github.com/assay-it/blueprint-suite" target="_blank"><b>assay-it/blueprint-suite</b></a>. Fork it to your own GitHub account and then add to the service workspace. 
 
   - title: Confirm Quality
     image: /images/getting-started/03-confirm.png
