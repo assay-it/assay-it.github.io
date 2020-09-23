@@ -40,7 +40,7 @@ features:
   - title: Commit and Go
     image: /images/version_control.svg
     description: |
-      The absence of a strong typesafe approach on quality assurance development of Serverless applications causes additional overhead and time loss in the development cycle. assay.it is designed to perform a formal proof of the quality using typesafe Behavior as a Code paradigm. Just write pure functional code instead of clicking through UI or maintaining endless XML, YAML or JSON documents.
+      The absence of a strong typesafe approach on quality assurance development of Serverless applications causes additional overhead and time loss in the development cycle. <b>assay.it</b> is designed to perform a formal proof of the quality using typesafe Behavior as a Code paradigm. Just write pure functional code instead of clicking through UI or maintaining endless XML, YAML or JSON documents.
 
 ##
 ## big call for action footer
