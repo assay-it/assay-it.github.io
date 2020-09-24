@@ -122,19 +122,26 @@ All other suites are implemented using a similar style. Please find the entire G
 ## Confirm Quality
 
 Software as a Service, such as [https://assay.it](https://assay.it), automates validation of cause-and-effect in loosely coupled topologies: serverless applications, microservices and other systems that rely on interface syntaxes and its behaviors. Let’s first manually execute the quality assessment against the deployed bookstore Serverless API:
-* Install [assay command line](https://github.com/assay-it/assay): `go get github.com/assay-it/assay`;
-* Sign up for [assay.it](https://assay.it) with your GitHub developer account (check the quick [start guide](https://assay.it/doc/));
-* Generate personal access key at your Profile;
-* Add your fork of [blueprint-serverless-api](https://github.com/assay-it/blueprint-serverless-api) to assay.it workspace.
 
+**Install** [assay command line](https://github.com/assay-it/assay)
+```bash
+go get github.com/assay-it/assay
 ```
+
+**Sign up for [assay.it](https://assay.it)** with your GitHub developer account. Initially, the service requires only access to your public profile, public repositories and access to commit status.
+
+**Fork [blueprint-serverless-api](https://github.com/assay-it/blueprint-serverless-api)** to your own GitHub account and then add to the assay.it workspace.
+
+**Allow assay cli** to run quality assessment with [assay.it](https://assay.it) on your behalf, an access key is requires. Go to your profile settings at assay.it and generate a new personal access key.
+
+**Run** quality assessment. The command uses a latest snapshot of Behavior as a Code suite from the repository to run the assessment against the given deployment of the service.
+```bash
 assay run your-github/blueprint-serverless-api 
 --url https://xxxxxxxxxx.execute-api.eu-west-1.amazonaws.com/api 
 --key Z2l0aH...DBkdw
 ```
 
-The command uses a latest snapshot of Behaviour as a Code suite from the repository to run the assessment against the given deployment of the service. Results become visible at service itself. 
-
+Results become visible at service itself. 
 ![](/images/posts/2020-09-24-quality-assessment.png)
 
 
