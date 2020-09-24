@@ -147,7 +147,7 @@ Results become visible at service itself.
 
 ## Automations
 
-The successful adoption of continuous quality proof is an automation along the development pipeline. A simple strategy to achieve an automation with GitHub Actions has been discussed in [previous posts](http://localhost:4000/2020/07/01/everything-is-continuos/). As a key highlight here, the right implementation of the automation workflow is the deployment of every change to an isolated environment with the  following promotion to production. 
+The successful adoption of continuous quality proof is an automation along the development pipeline. A simple strategy to achieve an automation with GitHub Actions has been discussed in [previous posts](https://assay.it/2020/07/01/everything-is-continuos/). As a key highlight here, the right implementation of the automation workflow is the deployment of every change to an isolated environment with the  following promotion to production. 
 
 ![](/images/posts/2020-07-01-everything-continuous-workflow.svg)
 
