@@ -34,14 +34,14 @@
 }
 
 .btn-call {
-  border: 2px solid #fff;
+  border: 1px solid #FF6E4A;
   border-radius: 0;
-  background: none;
-  color: #fff;
+  background-color:  #FF6E4A ;
+  color: #10161A;
 
   &:hover {
+    border: 1px solid #fff;
     background-color: #fff;
-    color: #2965CC;
   }
 }
 

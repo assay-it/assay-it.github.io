@@ -9,7 +9,7 @@ description: |
 # tags:
 #   - case study
 #   - continuous deployment
-image: https://source.unsplash.com/xyXcGADvAwE/2000x1322?a=.png
+thumbnail: https://source.unsplash.com/xyXcGADvAwE/2000x1322?a=.png
 author_staff_member: facebadge
 ---
 
@@ -20,7 +20,7 @@ Serverless technologies are the easiest solution for delivering scalable and rob
 * AWS Lambda functions implement api’s “business logic” without provisioning servers or explicit management of containers;
 * API Gateway is a front-end proxy layer to access serverless workload from the Internet. 
 
-![](/images/posts/2020-09-24-blueprint-serverless-api.svg)
+![](/img/posts/2020-09-24-blueprint-serverless-api.svg)
 
 The blueprint builds [a fictional bookstore](https://github.com/assay-it/blueprint-serverless-api), which is used in this post to discuss issues related to the quality. It implements a naive REST CRUD interface to store, delete, and update books in a DynamoDB database: 
 * `GET /books` retrieves collection of all books
@@ -144,14 +144,14 @@ assay run your-github/blueprint-serverless-api
 ```
 
 6. Results become visible at service itself. 
-![](/images/posts/2020-09-24-quality-assessment.png)
+![](/img/posts/2020-09-24-quality-assessment.png)
 
 
 ## Automations
 
 The successful adoption of continuous quality proof is an automation along the development pipeline. A simple strategy to achieve an automation with GitHub Actions has been discussed in [previous posts](https://assay.it/2020/07/01/everything-is-continuos/). As a key highlight here, the right implementation of the automation workflow is the deployment of every change to an isolated environment with the  following promotion to production. 
 
-![](/images/posts/2020-07-01-everything-continuous-workflow.svg)
+![](/img/posts/2020-07-01-everything-continuous-workflow.svg)
 
 Continuous proofs of the quality helps to eliminate defects at earlier phases of the feature lifecycle. It impacts on engineering teams philosophy and commitments, ensuring that your microservice(s) are always in a release-ready state. GitHub Actions allows teams to choose and build automation techniques with a perspective on time to market, cost, and risk. Integration of quality assessment is an essential part of these pipelines, the ready made action [assay-it/github-actions-webhook](https://github.com/assay-it/github-actions-webhook) does everything to execute WebHook on your behalf:
 

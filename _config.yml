@@ -1,0 +1,27 @@
+
+
+title: Assay It Quality
+url: https://assay.it 
+baseurl:
+logo: /site-icon.png
+
+# Build settings
+markdown: kramdown
+
+# Google analytics
+ga_tracking_id: UA-78986123-4
+
+
+exclude:
+  - "/vendor/"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+  - "LICENSE.md"
+  - "*.gemspec"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
+    
