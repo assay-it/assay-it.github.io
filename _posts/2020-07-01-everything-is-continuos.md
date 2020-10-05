@@ -9,7 +9,7 @@ description: |
 # tags:
 #   - case study
 #   - continuous deployment
-thumbnail: https://source.unsplash.com/collection/8363627/2000x1322?a=.png
+image: https://source.unsplash.com/collection/8363627/2000x1322?a=.png
 ---
 
 Modern software engineering is talking about Continuous Integration, Continuous Delivery and Continuous Deployment. Why should we distinguish them? **"Everything is Continuous"** defines a right philosophy and commitment that ensures the always ready state of your code. It also implements pipelines to deploy every commit straight to sandbox with the following promotion to production.

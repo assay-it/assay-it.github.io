@@ -9,8 +9,7 @@ description: |
 # tags:
 #   - case study
 #   - continuous deployment
-thumbnail: https://source.unsplash.com/xyXcGADvAwE/2000x1322?a=.png
-author_staff_member: facebadge
+image: https://source.unsplash.com/xyXcGADvAwE/2000x1322?a=.png
 ---
 
 Serverless technologies are the easiest solution for delivering scalable and robust application programming interfaces. Engineering teams are empowered with a capability of crafting world class interfaces without excessive management of the infrastructure and worrying about operations. An automated delivery accomplished by the Infrastructure as a Code is the only right way to manage serverless resources. Let’s evaluate a classical blueprint of Serverless CRUD API that build with following AWS services.
