@@ -5,7 +5,8 @@ title: |
 date: 2020-07-01
 author: assay.it
 description: |
-  xxx
+  Terms of Service
+thumbnail: /img/slider-bg.jpg
 ---
 
 <!-- https://gist.github.com/devver/380029 -->

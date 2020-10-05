@@ -22,7 +22,7 @@ This approach delivers few measurable benefits to any Software as a Service busi
 
 **"Everything is Continuous"** does not invent any special workflow. It just emphasizes deployment and quality assessment as a key feature along the development process. Continuous proofs of the quality helps to eliminate defects at earlier phases of the feature lifecycle. It impacts on engineering teams philosophy and commitments, ensuring that your microservice(s) are always in a release-ready state. The right implementation of the workflow deploys every commit to disposable sandbox environment with the following promotion to production. 
 
-![](/img/posts/2020-07-01-everything-continuous-workflow.svg)
+![A simple strategy to achieve an automation with GitHub Actions](/img/posts/2020-07-01-everything-continuous-workflow.svg)
 
 The workflow does not differ at all from [forking or branching git workflow](https://www.atlassian.com/git/tutorials/comparing-workflows#forking-workflow). It just emphasizes continuous deployment as a key feature along the delivery process. It supports quality assessments and helps to eliminate all related issues at earlier phases of feature delivery process:
 
@@ -44,6 +44,6 @@ The risk of occasional outage is always there due to regression in software qual
 
 The actual workflow implementation depends on tool chain used by the engineering team, especially CI/CD system. There is [a reference implementation](/doc/case-study/everything-is-continuous) of this workflow with AWS CDK and GitHub Actions. At the glance, the workflow requires steep learning curve, the knowledge about deployment automation is required before jumping into it. The time investment is worth it due to measurable benefits: cost reduction, faster execution and mitigation of risks.
 
-![](/img/posts/2020-07-01-everything-continuous-design.svg)
+![A reference implementation of quality automation](/img/posts/2020-07-01-everything-continuous-design.svg)
 
 We build [https://assay.it](https://assay.it/) to help developers with quality assessment of microservices in the distributed environment. The service is designed to perform a formal and objective proof of the quality using Behavior as a Code paradigm every time changes are applied to your environment.
