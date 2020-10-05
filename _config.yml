@@ -3,12 +3,25 @@ title: Assay It Quality
 url: https://assay.it 
 baseurl:
 logo: /site-icon.png
+description: |
+  Construct automated quality assessment pipelines for your Serverless applications across deployments and environments.
 
 # Build settings
 markdown: kramdown
 
 # Google analytics
 ga_tracking_id: UA-78986123-4
+
+# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+twitter:
+  card: summary
+  username: ItAssay
+
+social:
+  name: assay.it
+  links:
+    - https://twitter.com/ItAssay
+    - https://github.com/assay-it
 
 plugins:
   - jekyll-seo-tag
