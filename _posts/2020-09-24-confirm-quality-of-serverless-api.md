@@ -6,9 +6,6 @@ date: 2020-09-24
 author: assay.it
 description: |
   Quality assurance of serverless applications is more complex than doing it for other runtimes. Engineering teams spend twice as much time maintaining testing environments and mocking cloud services instead of focusing on the product values.
-# tags:
-#   - case study
-#   - continuous deployment
 image: https://source.unsplash.com/xyXcGADvAwE/2000x1322?a=.png
 ---
 
