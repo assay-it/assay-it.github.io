@@ -39,7 +39,7 @@ The successful adoption of "Everything is Continuous" requires **Continuous depl
 
 The risk of occasional outage is always there due to regression in software quality. The **immutable deployment** is the solution for availability and fault tolerance. CI/CD never changes anything at running systems. Immutable deployment making changes by rebuilding microservices, it deploys a new copy in parallel stack. The rollback of defective software  happens in a matter of seconds. Another advantage is the ability to split traffic between parallel deployments for quality assurance. 
 
-The actual workflow implementation depends on tool chain used by the engineering team, especially CI/CD system. There is [a reference implementation](/doc/case-study/everything-is-continuous) of this workflow with AWS CDK and GitHub Actions. At the glance, the workflow requires steep learning curve, the knowledge about deployment automation is required before jumping into it. The time investment is worth it due to measurable benefits: cost reduction, faster execution and mitigation of risks.
+The actual workflow implementation depends on tool chain used by the engineering team, especially CI/CD system. There is [a reference implementation](/doc/case-study/continuous-quality-automation) of this workflow with AWS CDK and GitHub Actions. At the glance, the workflow requires steep learning curve, the knowledge about deployment automation is required before jumping into it. The time investment is worth it due to measurable benefits: cost reduction, faster execution and mitigation of risks.
 
 ![A reference implementation of quality automation](/img/posts/2020-07-01-everything-continuous-design.svg)
 
