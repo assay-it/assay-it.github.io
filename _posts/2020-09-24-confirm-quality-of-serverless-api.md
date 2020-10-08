@@ -1,7 +1,7 @@
 ---
 layout: post
 title: |
-  How To Confirm Quality of Serverless API build with DynamoDB, AWS Lambda and API Gateway
+  How To Confirm Quality of Serverless API build with DynamoDB and AWS Lambda
 date: 2020-09-24
 author: assay.it
 description: |
