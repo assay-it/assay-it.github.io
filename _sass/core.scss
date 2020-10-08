@@ -110,6 +110,9 @@ header .site-logo {
   background-position: 10% 0%;
   padding: 200px 0 280px 0;
   position: relative;
+  @supports (-webkit-overflow-scrolling: touch) {
+    background-attachment: scroll
+  }
 }
 #slider:before {
   content: "";
