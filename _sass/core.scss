@@ -213,6 +213,9 @@ header .site-logo {
   position: relative;
   text-align: center;
   color: #fff;
+  @supports (-webkit-overflow-scrolling: touch) {
+    background-attachment: scroll
+  }
 }
 #call-to-action:before {
   content: "";
@@ -269,6 +272,9 @@ header .site-logo {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   padding: 100px 0;
+  @supports (-webkit-overflow-scrolling: touch) {
+    background-attachment: scroll
+  }
 }
 #feature h2 {
   font-size: 28px;
@@ -382,6 +388,9 @@ header .site-logo {
   padding-bottom: 107px;
   position: relative;
   background-attachment: fixed;
+  @supports (-webkit-overflow-scrolling: touch) {
+    background-attachment: scroll
+  }
 }
 #global-header:before {
   content: "";
