@@ -7,7 +7,7 @@
  */
 
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600);
-@import url(//fonts.googleapis.com/css?family=Roboto:400,100,200,300,500,700);
+@import url(//fonts.googleapis.com/css?family=Source+Sans+Pro:400,100,200,300,500,700);
 @import url(//fonts.googleapis.com/css?family=Volkhov:400italic);
 @import url(//fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
 
@@ -25,7 +25,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 h2 {
   font-size: 30px;
@@ -108,7 +108,7 @@ header .site-logo {
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
-  padding: 200px 0 280px 0;
+  padding: 0px 0px 280px 0px;
   position: relative;
   @supports (-webkit-overflow-scrolling: touch) {
     background-attachment: scroll
@@ -130,20 +130,20 @@ header .site-logo {
   color: #E3E3E4;
 }
 #slider .block h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: white;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 45px;
   line-height: 60px;
-  letter-spacing: 10px;
-  padding-bottom: 45px;
+  // letter-spacing: 10px;
+  // padding-bottom: 45px;
 }
 #slider .block p {
   font-size: 23px;
   line-height: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
-  letter-spacing: 3px;
+  // letter-spacing: 3px;
 }
 /*--
 	wrapper Start
@@ -411,9 +411,9 @@ header .site-logo {
   text-align: center;
 }
 #global-header .block h1 {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 45px;
-  letter-spacing: 6px;
+  // letter-spacing: 6px;
   padding-bottom: 15px;
   margin-top: 0;
   text-transform: capitalize;
@@ -421,7 +421,7 @@ header .site-logo {
 #global-header .block p {
   font-size: 1.2em;
   font-weight: 300;
-  letter-spacing: 1px;
+  // letter-spacing: 1px;
   word-spacing: 3px;
 }
 /*--

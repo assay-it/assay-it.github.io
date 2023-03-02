@@ -13,7 +13,7 @@ image: /site-icon.png
         <div class="block">
           <h1>Quick Start</h1>
           <p>
-            Let's get your start with <b>assay.it</b>.<br/>
+            Let's get your start with <b>assay-it</b>.<br/>
             These few simple steps explain how to run a first quality check.
           </p>
         </div>
@@ -29,23 +29,26 @@ image: /site-icon.png
       <div class="col-md-7 col-sm-12">
         <div class="block">
           <div class="section-title">
-            <h2>Sign Up with GitHub</h2>
+            <h2>Install it</h2>
           </div>
           <p>
-            Please use your GitHub account to sign in with <b>assay.it</b>.
-            It only requires access to your <b>public profile</b>, public repositories
-            and access to commit status on connected repositories.
-            Later, you can upgrade the account with access to private
-            repositories and organizations.
+            <code>assay-it</code> is <a href="https://github.com/assay-it/assay-it">an open source command line utility</a>.
+            The utility is designed for <b>testing</b> of loosely coupled
+            topologies such as serverless applications, microservices and other
+            systems that rely on interfaces, protocols and its behaviors.
+            It does the unit-like testing but in distributed environments.
           </p>
-          <a class="btn btn-primary btn-lg" href="https://github.com/login/oauth/authorize?client_id=6941f2acf659df65f37e&response_type=code&scope=repo%3Astatus&state=%7B%22vsn%22%3A%22v6%22%2C%22cid%22%3A%226941f2acf659df65f37e%22%2C%22url%22%3A%22https%3A%2F%2Fapi.assay.it%2Fauth%2Fhook%2Fgithub%22%2C%22acc%22%3A%22oss%22%2C%22upg%22%3Afalse%7D">
-            Sign Up with GitHub
-          </a>
+          <p>
+            Easiest way to install the latest version of utility using <code>brew</code>
+          </p>
+<pre class="highlight">
+<code>brew tap assay-it/homebrew-tap</code>
+<code>brew install -q assay-it</code></pre>
         </div>
       </div><!-- .col-md-7 close -->
       <div class="col-md-5 col-sm-12">
         <div class="block">
-          <img src="../img/getting-started/01-authorize.png" alt="Sign Up with GitHub">
+          <img src="../img/getting-started/cloud_files.svg" alt="Visualization of installation process">
         </div>
       </div><!-- .col-md-5 close -->
     </div>
@@ -56,13 +59,20 @@ image: /site-icon.png
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-md-offset-6">
-        <h2>Fork Blueprint</h2>
-        <p>
-          Use blueprint application <b>assay-it/blueprint-suite</b>.
-          Fork it to your own GitHub account and then add to the service workspace.
+        <h2>Code It</h2>
+        <p> 
+          The utility uses Behavior as a Code concept to depict testing suites
+          for protocol endpoints exposed by software components. These scenarios
+          check the correctness and makes the formal proof of quality.
         </p>
-        <a class="btn btn-primary btn-lg" href="https://github.com/assay-it/blueprint-suite" target="_blank" rel="noreferrer">
-          Fork Blueprint
+        <p>
+          The utility strongly recommends usages of
+          <a href="https://github.com/fogfish/gurl/blob/main/doc/user-guide.md">type safe and pure functional Golang combinators</a>
+          implemented by <a href="https://github.com/fogfish/gurl">ᵍ🆄🆁🅻 library</a>
+          for development of testing suites. It also allows anyone to use Markdown syntax for simple suites.
+        </p>
+        <a class="btn btn-primary btn-lg" href="https://github.com/assay-it/assay-it/blob/main/examples/golang-httpbin/request.go" target="_blank" rel="noreferrer">
+          See example
         </a>
       </div>
     </div>
@@ -76,20 +86,23 @@ image: /site-icon.png
       <div class="col-md-7 col-sm-12">
         <div class="block">
           <div class="section-title">
-            <h2>Confirm Quality</h2>
+            <h2>Run It</h2>
           </div>
           <p>
-            Launch the quality assessment job for this example. 
-            It implements a minimal quality assessment using <b>Behavior as a Code</b>.
+            Run the the quality assessment with <code>assay-it test suite.go</code>.
+            The utility automatically downloads imported modules, compiles suites
+            and outputs results into console.
           </p>
-          <a class="btn btn-primary btn-lg" href="https://github.com/assay-it/blueprint-suite/blob/master/suite.go" target="_blank" rel="noreferrer">
-            View Suite
-          </a>
+<pre class="highlight">
+<code>==> testing</code>
+<code>PASS: main.TestHttpBinGet</code>
+
+<code>PASS</code></pre>  
         </div>
       </div><!-- .col-md-7 close -->
       <div class="col-md-5 col-sm-12">
         <div class="block">
-          <img src="../img/getting-started/03-confirm.png" alt="Confirm Quality">
+          <img src="../img/getting-started/server_status.svg" alt="Visualization of completed quality check">
         </div>
       </div><!-- .col-md-5 close -->
     </div>
@@ -102,16 +115,16 @@ image: /site-icon.png
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h2>Confirm Quality, Eliminate Risks in your Serverless applications</h2>
+          <h2>Test in Production. Confirm Quality & Eliminate Risks.</h2>
           <p>
-            Quality assurance of serverless applications is more complex than
-            doing it for other runtimes. Engineering teams spend twice as much
+            Quality assurance of distributed applications is more complex than
+            doing it for other one. Engineering teams spend twice as much
             time for maintaining testing environments and mocking cloud
             dependencies instead of building a loyal relationship with their
-            customers, assay.it has you covered.
+            customers, assay-it has you covered.
           </p>
-          <a class="btn btn-call btn-lg" href="https://github.com/login/oauth/authorize?client_id=6941f2acf659df65f37e&response_type=code&scope=repo%3Astatus&state=%7B%22vsn%22%3A%22v6%22%2C%22cid%22%3A%226941f2acf659df65f37e%22%2C%22url%22%3A%22https%3A%2F%2Fapi.assay.it%2Fauth%2Fhook%2Fgithub%22%2C%22acc%22%3A%22oss%22%2C%22upg%22%3Afalse%7D" >
-            SignUp with GitHub
+          <a class="btn btn-call btn-lg" href="https://github.com/assay-it/assay-it" >
+            See on GitHub
           </a>
         </div>
       </div>
