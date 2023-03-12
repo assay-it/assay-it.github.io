@@ -33,9 +33,9 @@ image: /site-icon.png
           </div>
           <p>
             <code>assay-it</code> is <a href="https://github.com/assay-it/assay-it">an open source command line utility</a>.
-            The utility is designed for <b>testing</b> of loosely coupled
-            topologies such as serverless applications, microservices and other
-            systems that rely on interfaces, protocols and its behaviors.
+            The utility automates <b>testing</b> of loosely coupled topologies 
+            such as serverless applications, microservices and other systems
+            that rely on interfaces, protocols and its behaviors.
             It does the unit-like testing but in distributed environments.
           </p>
           <p>
@@ -61,18 +61,21 @@ image: /site-icon.png
       <div class="col-md-6 col-md-offset-6">
         <h2>Code It</h2>
         <p> 
-          The utility uses Behavior as a Code concept to depict testing suites
-          for protocol endpoints exposed by software components. These scenarios
-          check the correctness and makes the formal proof of quality.
+          The utility uses testing suites check correctness and makes the formal
+          proof of software components quality in the distributed environments. 
         </p>
         <p>
-          The utility strongly recommends usages of
-          <a href="https://github.com/fogfish/gurl/blob/main/doc/user-guide.md">type safe and pure functional Golang combinators</a>
-          implemented by <a href="https://github.com/fogfish/gurl">ᵍ🆄🆁🅻 library</a>
-          for development of testing suites. It also allows anyone to use Markdown syntax for simple suites.
+          Testing suites are <a href="https://github.com/fogfish/gurl/blob/main/doc/user-guide.md">type safe and pure functional test specification</a>
+          of protocol endpoints exposed by software components. The command
+          requires the suite development using Golang syntax implemented by <a href="https://github.com/fogfish/gurl">ᵍ🆄🆁🅻 library</a> but limited functionality is supported with Markdown documents.
         </p>
-        <a class="btn btn-primary btn-lg" href="https://github.com/assay-it/assay-it/blob/main/examples/golang-httpbin/request.go" target="_blank" rel="noreferrer">
-          See example
+        <p>
+          Generate the example test suite:
+        </p>
+        <pre class="highlight">
+        <code>assay-it testspec > suite.go</code></pre>
+        <a class="btn btn-primary btn-lg" href="https://github.com/assay-it/assay-it/blob/main/examples" target="_blank" rel="noreferrer">
+          See other example on GitHub
         </a>
       </div>
     </div>
@@ -89,15 +92,16 @@ image: /site-icon.png
             <h2>Run It</h2>
           </div>
           <p>
-            Run the the quality assessment with <code>assay-it test suite.go</code>.
+            Run the the quality assessment with <code>assay-it eval suite.go</code>.
             The utility automatically downloads imported modules, compiles suites
             and outputs results into console.
           </p>
 <pre class="highlight">
-<code>==> testing</code>
-<code>PASS: main.TestHttpBinGet</code>
+<code>assay-it eval suite.go</code>
 
-<code>PASS</code></pre>  
+<code>==> testing</code>
+<code>|-- PASS: main.TestHttpBinGet (325.187959ms)</code>
+<code>PASS main</code></pre>  
         </div>
       </div><!-- .col-md-7 close -->
       <div class="col-md-5 col-sm-12">
